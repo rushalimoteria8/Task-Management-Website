@@ -1,0 +1,79 @@
+.priority-settings-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.priority-settings-heading {
+    text-align: center;
+    margin-top: 20px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #000000;
+}
+
+.priority-settings-desc {
+    margin-top: 7px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.desc {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 150%;
+
+  color: #000000;
+}
+
+.priority-settings-options {
+    margin-top: 7px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 320px;
+  height: 40px;
+  align-self: center;
+}
+
+.prioity-option {
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 3px solid #9985df;
+  padding: 2.5%;
+
+  text-align: center;
+  margin-left: 3%;
+  margin-right: 3%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;  
+  color: #9985df;
+  
+}
+
+.prioity-option::-webkit-outer-spin-button,
+.prioity-option::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+
+
+
+.prioity-option:focus{
+  outline: none;
+
+}
+
+.prioity-option-highlight{
+  background-color: #9985df;
+  color: white;
+
+}

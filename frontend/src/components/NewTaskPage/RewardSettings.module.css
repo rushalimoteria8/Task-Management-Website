@@ -1,0 +1,39 @@
+.rewards-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.rewards-heading {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+
+  color: #000000;
+}
+
+.rewards-desc {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 150%;
+  color: #000000;
+  text-align: center;
+}
+
+.rewards-text-area{
+    height: 70px;
+    width: 400px;
+    border: 1px solid #9985df;
+    border-radius: 20px;
+    background-color: #efeff5;
+    font-size: 14px;
+    padding: 1.5%;
+    margin-top: 5px;
+    resize: none;
+}
+

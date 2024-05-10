@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.newTaskDiv {
+  background-color: #e0dff6;
+  padding-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 12%;
+  padding-left: 12%;
+  padding-top: 5%;
+}
+
+.heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 150%;
+  text-align: center;
+  color: #491e6c;
+}
+
+.newTaskTile {
+  width: 700px;
+  background: #efeff5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 40px;
+  padding: 5%;
+  /* padding-top: 5%;
+  padding-bottom: 5%;
+  padding-left: 4%;
+  padding-right: 4%; */
+  margin-top: 10px;
+}
+
+
+
+

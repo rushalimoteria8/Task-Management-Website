@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-around;*/
+  padding: 3%;
+  background-color: #efeff5;
+}
+
+.writeup {
+  width: 50%;
+}
+
+.headline{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33px;
+  line-height: 150%;
+  /* or 57px */
+  margin-top: 10%;
+  margin-left: 20%;
+  display: flex;
+  align-items: center;
+
+  color: #491e6c;
+}
+
+.introPara{
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 150%;
+  /* or 38px */
+
+  margin-top: 5%;
+  margin-left: 20%;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+img {
+    display: flex;
+  width: 480px;
+  height: 450px;
+  margin-right: 10%;
+  margin-left: 5%;
+  /* margin-top: 5%; */
+  margin-bottom: 5%;
+}

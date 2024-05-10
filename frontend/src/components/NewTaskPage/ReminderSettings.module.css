@@ -1,0 +1,41 @@
+.reminder-div{
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+} 
+
+.content-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.rem-heading{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+  
+    color: #000000;
+}
+
+.rem-desc{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.radio-button-div{
+    align-items: center;
+    justify-content:center;
+    margin-left: 10px;
+}
+
+.radiobutton{
+    width: 14px;
+    height: 14px;
+    border: 2px solid #9985DF;
+}

@@ -1,0 +1,99 @@
+.new-sub-task-inputs {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.sub-task-tile {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.sub-task-heading {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+
+  color: #000000;
+}
+
+.title-input {
+  height: 30px;
+  width: 350px;
+  margin-left: 5px;
+  border: 1px solid #9985df;
+  border-radius: 30px;
+  background-color: #efeff5;
+  font-size: 14px;
+  padding: 1.5%;
+}
+
+.estiamted-subtask-time {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 7px;
+}
+
+.est-time-input {
+  height: 30px;
+  width: 70px;
+  border: 1px solid #9985df;
+  border-radius: 30px;
+  background-color: #efeff5;
+  font-size: 14px;
+  padding: 1.5%;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.est-time-label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000000;
+  margin-left: 3px;
+}
+
+.title-input-error-msg{
+  font-size: 12px;
+  color: red;
+  display: inline;
+  padding-left: 110px;
+  /*margin-left: 12px;
+  text-align: center;*/
+}
+
+.input-error-msg{
+  font-size: 12px;
+  color: red;
+  display: inline;
+  margin-left: 5px;
+}
+
+
+.error{
+  border: 1px solid red;
+}
+
+.align-column{
+  display: flex;
+ flex-direction: column;
+}
+
+.hours-error-msg{
+  font-size: 12px;
+  color: red;
+  padding-left: 235px;
+}
+
+.minutes-error-msg{
+  font-size: 12px;
+  color: red;
+  padding-left: 355px;
+}

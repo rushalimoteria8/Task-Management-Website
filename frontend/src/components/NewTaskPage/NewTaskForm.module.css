@@ -1,0 +1,128 @@
+.new-task-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.text-input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-div{
+    margin-top: 8px;
+}
+
+.sub-heading {
+  display: inline;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.title-input {
+  height: 30px;
+  width: 575px;
+  border: 1px solid #9985df;
+  border-radius: 30px;
+  background-color: #efeff5;
+  font-size: 14px;
+  padding: 1.5%;
+}
+
+.task-desc-input {
+  height: 140px;
+  width: 575px;
+  border: 1px solid #9985df;
+  border-radius: 30px;
+  background-color: #efeff5;
+  font-size: 14px;
+  padding: 1.5%;
+  resize: none;
+}
+
+.date-input {
+  height: 30px;
+  width: 150px;
+  border: 1px solid #9985df;
+  background-color: #efeff5;
+  border-radius: 30px;
+  font-size: 14px;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.time-req-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.time-req-input {
+  height: 30px;
+  width: 70px;
+  border: 1px solid #9985df;
+  border-radius: 30px;
+  background-color: #efeff5;
+  font-size: 14px;
+  padding: 1.5%;
+  text-align: center;
+  margin-left: 5px;
+}
+
+.time-req-label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000000;
+}
+
+.task-save-button{
+    align-self: center;
+    cursor: pointer;
+    /* margin-right:3%;
+    margin-bottom: 2%; */
+    padding:1.5%;
+    width:15%;
+    border-radius: 20px;
+    border: none;
+
+    color:white;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 80%;
+    background-color: #9985df;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+
+input:focus {
+  outline: none;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+.input-error-msg{
+  font-size: 12px;
+  color: red;
+  display: inline;
+  margin-left: 10px;
+}
+
+.error{
+  border: 1px solid red;
+}
+
+.save-error{
+  align-self: center;
+  margin-top:10px;
+  font-size: 13px;
+}

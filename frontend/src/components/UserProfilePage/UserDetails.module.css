@@ -1,0 +1,55 @@
+.user-profile-details-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.profile-heading {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 150%;
+
+  color: #000000;
+}
+
+.login-input-text {
+  margin-top: 3px;
+  height: 30px;
+  width: 390px;
+  background: #eaeaea;
+  border: none;
+  border-bottom: 0.5px solid #000000;
+}
+
+.gender-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.gender-radio-button-div {
+    display:flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.gender-radio-button {
+  width: 13px;
+  height: 13px;
+  border: 2px solid #9985df;
+}
+.gender-label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+  color: #000000;
+  margin-left: 3px;
+}
+
+.error-msg{
+  font-size: 12px;
+  color:red;
+}

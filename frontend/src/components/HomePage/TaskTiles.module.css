@@ -1,0 +1,67 @@
+.taskContainer {
+  background-color: #e0dff6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-right: 12%;
+  padding-left: 12%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.titleContainer {
+  display: inline;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 150%;
+  /* or 42px */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  color: #491e6c;
+}
+
+.title {
+  width: 500px;
+}
+
+.buttondiv {
+  width: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.morebutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  height: 25px;
+  width: 80px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  border: none;
+  background-color: #EFEFF5;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 150%;
+  color: #9985df;
+}
+
+.tilesContainer {
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.morebuttonHide{
+  visibility: hidden;
+}

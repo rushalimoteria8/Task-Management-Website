@@ -1,0 +1,25 @@
+.dropDownMenu{
+    background-color: #C3B6F4;
+  
+  }
+  
+  .editDropdownDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  select {
+    margin-top: 20px;
+    margin-left:7px;
+    height: 25px;
+    width: 58px;
+    background: #9985df;
+    border-radius: 20px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    color: #ffffff;
+    text-align: center;
+  }

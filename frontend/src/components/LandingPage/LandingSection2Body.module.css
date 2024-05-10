@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.bodyContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 300px;
+}
+
+.tile {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.tileicon {
+  background-color: #c5baed;
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.idvicon {
+  height: 115px;
+  width: 115px;
+  color: #efeff5;
+}
+.iconText {
+  height: 55px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 150%;
+  /* or 38px */
+
+  display: flex;
+  /* align-items: center; */
+  text-align: center;
+
+  color: #491e6c;
+}

@@ -1,0 +1,56 @@
+.headerdiv{
+  height:50px;
+}
+
+.brand {
+  font-style: normal;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 150%;
+  color: #491e6c;
+  text-decoration: none;
+}
+
+.header {
+  padding: 10px 80px 10px 80px;
+  background-color: #efeff5;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /*add shadow only on scroll!!!*/
+}
+
+.button {
+  padding:0.6%;
+  width: 140px;
+  height: 33px;
+  border-radius: 20px;
+  border: none;
+  text-align: center;
+  background-color: #9985df;
+  /* position: absolute;
+  right: 50px; */
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 80%;
+  color: white;
+  
+}
+
+.button:hover {
+  background-color: white;
+  color: #9985df;
+  border: 2px solid #9985df;
+}
+
+.buttonHidden{
+  visibility: hidden;
+}
+
